@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_hole",
   "spriteId": {
     "name": "spr_hole",
     "path": "sprites/spr_hole/spr_hole.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -21,8 +25,8 @@
   "physicsKinematic": false,
   "physicsShapePoints": [],
   "eventList": [
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_ball_white","path":"objects/obj_ball_white/obj_ball_white.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
-    {"isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_char","path":"objects/obj_char/obj_char.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_ball_white","path":"objects/obj_ball_white/obj_ball_white.yy",},},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","isDnD":false,"eventNum":0,"eventType":4,"collisionObjectId":{"name":"obj_char","path":"objects/obj_char/obj_char.yy",},},
   ],
   "properties": [],
   "overriddenProperties": [],
@@ -30,8 +34,4 @@
     "name": "Objects",
     "path": "folders/Objects.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_hole",
-  "tags": [],
-  "resourceType": "GMObject",
 }

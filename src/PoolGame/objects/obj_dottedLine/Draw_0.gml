@@ -1,5 +1,5 @@
 /// @description Insert description here
-// You can write your code in this editor
+// draw dotted line from character to ball
 if instance_number(obj_ball_white)>0 && instance_number(obj_char)>0
 {
 var origin = obj_char
@@ -16,7 +16,7 @@ y = y_orig
 var _angle = point_direction(x_orig, y_orig, x_dest, y_dest);
 var _width = sprite_width
 
-
+//only draw if within range
 if (distance_to_object(obj_ball_white)<global.hitDistance)
 {
 	for (var i = 1;

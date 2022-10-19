@@ -1,5 +1,5 @@
 /// @description Insert description here
-// You can write your code in this editor
+//shatter pieces
 if lifetime==40
 {
 	x+=18*cos(angle)

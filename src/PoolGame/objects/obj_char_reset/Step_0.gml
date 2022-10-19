@@ -5,6 +5,7 @@ if (instance_count(obj_char)>0)
 {
 	instance_destroy(obj_char)
 }
+//resetting character objects, if health is 0 game is over
 if (lifetime==0)
 {
 	

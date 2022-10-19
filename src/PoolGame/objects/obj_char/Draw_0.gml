@@ -12,6 +12,7 @@ if keyboard_check_direct(vk_lalt) && instance_number(obj_ball_white)>0
 	point_direction(x,y,obj_ball_white.x,obj_ball_white.y),-1,0.6)
 }
 
+//drawing charging hit
 if global.hitTime <0  && instance_number(obj_ball_white)>0
 {
 	pull = 75+25*global.hitTime

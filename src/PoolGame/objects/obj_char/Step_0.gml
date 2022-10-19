@@ -1,7 +1,7 @@
 /// @description AAA
 //boundKeeper
 global.color1 = image_index
-
+//staying within bounds
 if x>global.rightBound
 	x = global.rightBound
 	
